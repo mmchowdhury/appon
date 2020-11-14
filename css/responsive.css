@@ -1,0 +1,462 @@
+/* =========================================
+Basic setup
+========================================= */
+@media (max-width: 480px) {
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  h4 {
+    font-size: 14px;
+  }
+}
+/* =========================================
+Basic setup
+========================================= */
+
+/* =========================================
+Reusable components
+========================================= */
+@media (max-width: 767px) {
+  .section-padding {
+    padding: 50px 0;
+  }
+  
+  .section-padding-top {
+    padding-top: 50px;
+  }
+}
+/* =========================================
+Reusable components
+========================================= */
+
+/* =========================================
+Navigation
+========================================= */
+@media (max-width: 991px) {
+  .navbar-expand-lg .navbar-nav {
+    padding: 30px 0 5px;
+  }
+
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 0 30px;
+    margin-left: 0px;
+  }
+
+  .menu-btn a {
+    margin-left: 0;
+  }
+
+  .menu-btn {
+    padding-bottom: 33px;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link::after {
+    display: none;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar .navbar-brand img {
+    height: 35px;
+  }
+
+  .sticky.navbar .navbar-brand img {
+    height: 35px;
+  }
+}
+/* =========================================
+Navigation
+========================================= */
+
+/* =========================================
+Home section
+========================================= */
+@media (max-width: 991px) {
+  #home {
+    text-align: center;
+  }
+
+  .home-divider {
+    margin: 0 auto 25px;
+  }
+
+  .home-divider + p {
+    margin: 0 auto 55px;
+  }
+
+  .home-btns {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  #home {
+    padding: 170px 0 80px;
+  }
+
+  .sub-heading {
+    font-size: 26px;
+  }
+
+  .home-btns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn-android {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+/* =========================================
+Home section
+========================================= */
+
+/* =========================================
+About section
+========================================= */
+@media (max-width: 991px) {
+  #about.section-padding {
+    padding-bottom: 45px;
+  }
+
+  .about-text {
+    margin-top: 0px;
+    margin-bottom: 70px;
+  }
+
+  .about-img {
+    max-width: 370px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-text {
+    margin-bottom: 50px;
+  }
+
+  #about.section-padding {
+    padding-bottom: 25px;
+  }
+
+  #about .divider + p {
+    margin-bottom: 10px;
+  }
+}
+/* =========================================
+About section
+========================================= */
+
+/* =========================================
+Features section
+========================================= */
+@media (max-width: 991px) {
+  .feature-img {
+    text-align: right;
+  }
+}
+
+@media (max-width: 767px) {
+  .feature-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .feature-item {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  .feature-item:last-of-type {
+    margin-bottom: 0px;
+  }
+
+  .feature-flex {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .feature-icon i {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  .feature-border {
+    display: none;
+  }
+
+  .feature-img {
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .feature-item {
+    width: 100%;
+  }
+}
+/* =========================================
+Features section
+========================================= */
+
+/* =========================================
+Screenshots section
+========================================= */
+@media (max-width: 767px) {
+  #screenshots.section-padding {
+    padding-bottom: 65px;
+  }
+
+  .screenshots-slider .slick-dots {
+    bottom: -45px;
+  }
+}
+/* =========================================
+Screenshots section
+========================================= */
+
+/* =========================================
+Video section
+========================================= */
+@media (max-width: 575px) {
+  .video-play {
+    padding: 150px 0;
+  }
+}
+/* =========================================
+Video section
+========================================= */
+
+/* =========================================
+Price section
+========================================= */
+@media (max-width: 991px) {
+  .price-card {
+    max-width: 270px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .price-card {
+    margin-bottom: 15px;
+  }
+}
+/* =========================================
+Price section
+========================================= */
+
+/* =========================================
+Team section
+========================================= */
+@media (max-width: 991px) {
+  .team-members {
+    padding-top: 0px;
+  }
+
+  .team-members .col-lg-4:nth-of-type(1),
+  .team-members .col-lg-4:nth-of-type(2) {
+    margin-bottom: 70px;
+  }
+
+  .member-card:hover {
+    margin-top: 0px;
+  }
+
+  .member-card.active {
+    margin-top: 0px;
+  }
+
+  .member-card {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .member-about {
+    display: block;
+    border-color: #f1f1f1;
+  }
+
+  .member-card:hover .member-about,
+  .member-card.active .member-about {
+    border-color: #cccccc;
+  }
+}
+
+@media (max-width: 767px) {
+  #team.section-padding-top {
+    padding-top: 35px;
+  }
+
+  .team-members .col-lg-4:nth-of-type(1),
+  .team-members .col-lg-4:nth-of-type(2) {
+    margin-bottom: 30px;
+  }
+}
+/* =========================================
+Team section
+========================================= */
+
+/* =========================================
+Feedback section
+========================================= */
+@media (max-width: 767px) {
+  .top-slider-container {
+    max-width: 510px;
+  }
+
+  .top-slider-container::after {
+    top: 197px;
+  }
+}
+
+@media (max-width: 575px) {
+  .top-slider-container {
+    max-width: 450px;
+  }
+
+  .top-slider-container::after {
+    top: 218px;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-slider-container {
+    max-width: 290px;
+  }
+
+  .top-slider-container::after {
+    top: 278px;
+  }
+
+  .user-sliders img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .slick-center img {
+    width: 75px;
+    height: 75px;
+  }
+
+  #feedback-sliders {
+    padding-bottom: 50px;
+  }
+
+  #feedback-sliders .slick-dots {
+    bottom: -50px;
+  }
+}
+/* =========================================
+Feedback section
+========================================= */
+
+/* =========================================
+Contact section
+========================================= */
+@media (max-width: 991px) {
+  .input-fields input {
+    width: 30.5%;
+  }
+}
+
+@media (max-width: 767px) {
+  .input-fields {
+    flex-wrap: wrap;
+  }
+
+  .input-fields input,
+  .input-fields + textarea {
+    width: 90%;
+    margin: 0 auto 30px;
+  }
+
+  .input-fields + textarea {
+    height: 150px;
+  }
+}
+/* =========================================
+Contact section
+========================================= */
+
+/* =========================================
+Footer section
+========================================= */
+@media (max-width: 991px) {
+  .footer-logo img {
+    height: 50px;
+  }
+
+  .footer-logo {
+    margin-bottom: 20px;
+  }
+
+  .footer-social-icons {
+    margin-bottom: 20px;
+  }
+
+  .footer-social-icons i {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 575px) {
+  footer {
+    padding: 20px 0 10px;
+  }
+
+  .footer-logo img {
+    height: 35px;
+  }
+
+  .footer-logo {
+    margin-bottom: 15px;
+  }
+
+  .footer-social-icons {
+    margin-bottom: 10px;
+  }
+
+  .footer-social-icons i {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 14px;
+  }
+
+  footer p {
+    font-size: 13px;
+  }
+}
+/* =========================================
+Footer section
+========================================= */
+
+/* =========================================
+Scroll Up
+========================================= */
+@media (max-width: 767px) {
+  .scroll-up {
+    visibility: hidden;
+  }
+}
+/* =========================================
+Scroll Up
+========================================= */
